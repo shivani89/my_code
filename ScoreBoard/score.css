@@ -1,0 +1,26 @@
+.winner{
+
+	color: red;
+}
+
+div{
+
+	text-align: center;
+	height: 100px;
+	padding: 5%;
+
+}
+
+h1{
+
+	font-size: 50px;
+	font-weight: bolder;
+
+}
+
+body{
+
+	background-image: url("score.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
