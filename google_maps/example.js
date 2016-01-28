@@ -1,4 +1,4 @@
-angular.module('plunker', ['ui.bootstrap', 'ngMap']);
+angular.module('myApp', ['ui.bootstrap', 'ngMaps']);
 var ModalDemoCtrl = function ($scope, $modal, $log) {
 
   $scope.lat = 34.834442;

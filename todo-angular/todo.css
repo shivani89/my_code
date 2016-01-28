@@ -1,7 +1,7 @@
 @import "compass/css3";
 
 body {
-  background: #13756D;
+  background: #133E75;
 }
 
 .todo-wrapper {
@@ -12,8 +12,8 @@ body {
 h2 {
   font-size: 2em;
   
-  font-family: megrim, fantasy;
-  background: #1CA89C;
+  font-family: aladin, sans-serif;;
+  background: rgba(57, 28, 168, 0.51);
   padding: 40px;
   margin: 0;
   color: #333;
@@ -30,7 +30,7 @@ ul {
 }
 
 li {
-  font-family: megrim, fantasy;
+  font-family: aladin, sans-serif;;
   font-size: 2em;
   padding: 40px;
   
@@ -62,7 +62,7 @@ li input[type="checkbox"] {
   border: none;
   padding: 40px 0;
   font-size: 2em;
-  font-family: megrim, fantasy;
+  font-family: aladin, sans-serif;;
   text-indent: 55px;
 }
 .add-btn {
@@ -75,7 +75,7 @@ li input[type="checkbox"] {
    background: #29F4E3;
    padding: 0;
    font-size: 4em;
-   font-family: megrim, fantasy;
+   font-family: aladin, sans-serif;;
    color: #333;
   }
 }
@@ -86,6 +86,6 @@ li input[type="checkbox"] {
   height: 100px;
   background: #13756D;
   font-size: 2em;
-  font-family: megrim, fantasy;
+  font-family: aladin, sans-serif;;
   color: #aaa;
 }
