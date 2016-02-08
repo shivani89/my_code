@@ -25,6 +25,14 @@ angular
         controller: 'MainCtrl'
         
       })
+
+      .state('home', {
+        url: "/home",
+        templateUrl: 'views/home.html',
+        controller: 'HomeCtrl'
+       
+      })
+
       .state('about', {
         url: "/about",
         templateUrl: 'views/about.html',
@@ -50,7 +58,5 @@ angular
         controller: 'LoginCtrl'
         
       })
-      // .otherwise({
-      //   redirectTo: });'/'
       
   });
