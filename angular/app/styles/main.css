@@ -44,14 +44,17 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+
+  max-height: 768px;
+ border-bottom: 1px solid #e5e5e5;
+ background: rgba(255, 210, 150, 0.6);
   
 }
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+/*.jumbotron .btn {
+  margin-top: 50px;
 }
+*/
+
 
 /* Supporting marketing content */
 .marketing {
@@ -90,3 +93,8 @@ body {
 
 }
 */
+
+.navbar-brand{
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}

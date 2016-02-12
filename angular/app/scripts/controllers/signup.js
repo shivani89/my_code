@@ -8,10 +8,12 @@
  * Controller of the angularApp
  */
 angular.module('angularApp')
-  .controller('SignupCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('SignupCtrl', [function () {
+   
+   var self = this;
+              self.submit = function() {
+                  console.log('Form is submitted with following user', self.user);
+                  
+            };
+
+  }]);
